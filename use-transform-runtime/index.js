@@ -5,7 +5,7 @@ class People {
     constructor() {
 
     }
-}
+};
 
 
 const lMC = new People();

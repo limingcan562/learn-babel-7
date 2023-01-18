@@ -7,3 +7,5 @@ const plugins = [
 ];
 
 module.exports = {plugins, presets};
+
+// module.exports = {presets};
