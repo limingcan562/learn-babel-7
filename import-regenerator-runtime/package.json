@@ -1,0 +1,23 @@
+{
+  "name": "import-regenerator-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel index.js -o compile.js",
+    "build": "webpack",
+    "build:all": "npm run compile && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-regenerator": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
