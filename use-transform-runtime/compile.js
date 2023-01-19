@@ -1,10 +1,14 @@
-import _createClass from "@babel/runtime/helpers/createClass";
-import _classCallCheck from "@babel/runtime/helpers/classCallCheck";
-import Animal from "./class/Animal";
-import Country from "./class/Country";
-var People = /*#__PURE__*/_createClass(function People() {
-  _classCallCheck(this, People);
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+var _Animal = _interopRequireDefault(require("./class/Animal"));
+var _Country = _interopRequireDefault(require("./class/Country"));
+var People = /*#__PURE__*/(0, _createClass2["default"])(function People() {
+  (0, _classCallCheck2["default"])(this, People);
 });
+;
 var lMC = new People();
-var cat = new Animal();
-var usa = new Country();
+var cat = new _Animal["default"]();
+var usa = new _Country["default"]();
