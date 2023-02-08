@@ -1,0 +1,26 @@
+{
+  "name": "preset-env-useBuiltIns-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:entry": "cross-env CONFIG=entry npx babel ./src/entry.js -o compile.js && cross-env CONFIG=entry webpack",
+    "build:usage": "cross-env CONFIG=usage npx babel ./src/usage.js -o compile.js && cross-env CONFIG=usage webpack",
+    "build:false": "cross-env CONFIG=false npx babel ./src/false.js -o compile.js && cross-env CONFIG=false webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2"
+  }
+}
