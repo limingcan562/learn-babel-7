@@ -2,7 +2,7 @@
 
 ## 介绍
 
-### `know-babel-package`  
+### 目录`know-babel-package`  
 > 此文件夹存放：**了解`Babel`主要几个包**所涉及的案例
 
 - `no-preset` 不利用预设编译
@@ -15,12 +15,11 @@
 - `no-use-tranform-runtime` 不使用`@babel/plugin-transform-runtime`
 - `use-transform-runtime` 使用`@babel/plugin-transform-runtime`
 
-### 备注：
 该目录`Babel`版本：
 - `@babel/core`最新版本是：`7.20.12`
 - `@babel/preset-env`最新版本是：`7.20.2`
 
-### `know-babel-config`  
+### 目录`know-babel-config`  
 > 此文件夹存放：**了解`Babel`如何配置** 所涉及的案例
 
 - `preset-env-targets-config` 感受`@babel/preset-env`如何减少`ES6+`语法编译
@@ -29,7 +28,6 @@
 - `use-third-party-library-problem` 使用第三方库时的问题
 - `transform-runtime-config` 感受`@babel/plugin-transform-runtime`各配置项
 
-### 备注：
 该目录`Babel`版本：
 - `@babel/core`最新版本是：`7.20.12`
 - `@babel/preset-env`最新版本是：`7.20.2`
