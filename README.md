@@ -38,8 +38,8 @@
 - `entry-global` 感受新的配置方法`entry-global`可以替代旧的配置方法`useBuiltIns: entry`
 
 该目录`Babel`版本：
-- `@babel/core`最新版本是：`7.20.12`
-- `@babel/preset-env`最新版本是：`7.20.2`
+- `@babel/core`最新版本是：`7.21.8`
+- `@babel/preset-env`最新版本是：`7.21.5`
 
 ## 相关文章
 [去查看](https://juejin.cn/column/7185787287601905701)
