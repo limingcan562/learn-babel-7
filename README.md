@@ -36,6 +36,7 @@
 > 此文件夹存放：用`babel-plugin-polyfill-corejs3`来代替`Babel`旧的配置方法，相当于是`Babel`新的配置方法
 
 - `entry-global` 感受新的配置方法`entry-global`可以替代旧的配置方法`useBuiltIns: entry`
+- `usage-global` 感受新的配置方法`usage-global`可以替代旧的配置方法`useBuiltIns: usage`
 
 该目录`Babel`版本：
 - `@babel/core`最新版本是：`7.21.8`

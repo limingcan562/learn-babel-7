@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:new": "cross-env CONFIG=new npx babel index.js -o newConfig.js webpack",
+    "build:new": "cross-env CONFIG=new npx babel index.js -o newConfig.js",
     "build:old": "cross-env CONFIG=old npx babel index.js -o oldConfig.js",
-    "build:all": "npm run build:new && npm run build:old"
+    "build:all": "npm run build:new && npm run build:old && webpack"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,9 @@
     "@babel/core": "^7.21.8",
     "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.21.5",
-    "cross-env": "^7.0.3"
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
   }
 }

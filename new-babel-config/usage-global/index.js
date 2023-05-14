@@ -1,7 +1,7 @@
 const array = [1, 2, 3, 4, 5];
 
 // 处于stage-3提案的方法
-array.group((num, index, array) => {
+const arr = array.group((num, index, array) => {
     return num % 2 === 0 ? 'even': 'odd';
 });
 
