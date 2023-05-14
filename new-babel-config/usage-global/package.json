@@ -1,10 +1,10 @@
 {
-  "name": "entry-global",
+  "name": "usage-global",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:new": "cross-env CONFIG=new npx babel index.js -o newConfig.js",
+    "build:new": "cross-env CONFIG=new npx babel index.js -o newConfig.js webpack",
     "build:old": "cross-env CONFIG=old npx babel index.js -o oldConfig.js",
     "build:all": "npm run build:new && npm run build:old"
   },
