@@ -25,7 +25,7 @@ else {
         [
             '@babel/preset-env',
             {
-                useBuiltIns: process.env.CONFIG,
+                useBuiltIns: 'entry',
                 corejs: {
                     version: require("core-js/package.json").version,
                 }
