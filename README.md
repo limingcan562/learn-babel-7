@@ -37,6 +37,7 @@
 
 - `entry-global` 感受新的配置方法`entry-global`可以替代旧的配置方法`useBuiltIns: entry`
 - `usage-global` 感受新的配置方法`usage-global`可以替代旧的配置方法`useBuiltIns: usage`
+- `usage-pure` 感受新的配置方法`usage-pure`可以替代，开发第三方库时的旧的配置方法
 
 该目录`Babel`版本：
 - `@babel/core`最新版本是：`7.21.8`

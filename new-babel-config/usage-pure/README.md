@@ -1,4 +1,4 @@
-## 感受新的配置方法`usage-global`可以替代旧的配置方法`useBuiltIns: usage`
+## `usage-pure` 感受新的配置方法`usage-pure`可以替代，开发第三方库时的旧的配置方法
 
 - `npm i`
 - `npm run build:old` 输出旧配置方法，编译后的文件
