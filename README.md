@@ -32,5 +32,14 @@
 - `@babel/core`最新版本是：`7.20.12`
 - `@babel/preset-env`最新版本是：`7.20.2`
 
+### 目录`new-babel-config`  
+> 此文件夹存放：用`babel-plugin-polyfill-corejs3`来代替`Babel`旧的配置方法，相当于是`Babel`新的配置方法
+
+- `entry-global` 感受新的配置方法`entry-global`可以替代旧的配置方法`useBuiltIns: entry`
+
+该目录`Babel`版本：
+- `@babel/core`最新版本是：`7.20.12`
+- `@babel/preset-env`最新版本是：`7.20.2`
+
 ## 相关文章
 [去查看](https://juejin.cn/column/7185787287601905701)

@@ -1,0 +1,14 @@
+{
+  "name": "entry-global",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "scripts": {
+    "build:new": "cross-env CONFIG=new npx babel index.js -o newConfig.js",
+    "build:old": "cross-env CONFIG=old npx babel index.js -o oldConfig.js",
+    "build:all": "npm run build:new && npm run build:old"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
