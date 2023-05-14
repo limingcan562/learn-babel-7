@@ -7,9 +7,11 @@ const plugins = [
         {
             method: "usage-pure", 
             version: require("core-js-pure/package.json").version,
-            proposals: true
+            proposals: true,
+            debug: true,
+            targets: 'chrome 100'
         }
     ],
     '@babel/plugin-transform-runtime',
 ];
-module.exports = {targets, plugins, presets};
+module.exports = {plugins, presets};
