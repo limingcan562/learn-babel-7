@@ -1,4 +1,7 @@
 const targets = 'ie 11';
+// 可以修改version，看看输出的代码有没有什么区别
+const version = require("core-js/package.json").version;
+
 let 
 presets,
 plugins;
@@ -13,7 +16,7 @@ if (process.env.CONFIG === 'new') {
             'babel-plugin-polyfill-corejs3',
             {
                 method: "entry-global", 
-                version: require("core-js/package.json").version,
+                version
             }
         ],
         '@babel/plugin-transform-runtime',
@@ -27,7 +30,7 @@ else {
             {
                 useBuiltIns: 'entry',
                 corejs: {
-                    version: require("core-js/package.json").version,
+                    version
                 }
             }
         ]
