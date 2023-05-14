@@ -11,3 +11,5 @@ const wait = () => {
 
 
 wait().then(val => console.log(val));
+
+console.log(arr);
