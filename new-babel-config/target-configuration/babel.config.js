@@ -9,7 +9,7 @@ const plugins = [
             version: require("core-js-pure/package.json").version,
             proposals: true,
             debug: true,
-            targets: 'chrome 100'
+            // targets: 'ie 11'
         }
     ],
     '@babel/plugin-transform-runtime',
