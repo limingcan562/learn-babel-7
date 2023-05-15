@@ -40,6 +40,7 @@
 - `usage-pure` 感受新的配置方法`usage-pure`可以替代，开发第三方库时的旧的配置方法
 - `target-configuration` 感受新配置方法`targets`配置项是如何解决以前开发第三方库体积大的问题
 - `transform-runtime-targets-problem` 感受以前`@babel/transform-runtime`不能识别`targets`问题
+- `usage-pure-problem` 感受以前新的配置方法`usage-pure`目前存在的问题
 
 该目录`Babel`版本：
 - `@babel/core`最新版本是：`7.21.8`

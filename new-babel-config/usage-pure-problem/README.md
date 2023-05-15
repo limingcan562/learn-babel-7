@@ -1,4 +1,4 @@
-## `usage-pure` 感受新的配置方法`usage-pure`可以替代，开发第三方库时的旧的配置方法
+## `usage-pure-problem` 感受以前新的配置方法`usage-pure`目前存在的问题
 
 - `npm i`
 - `npm run build:old` 输出旧配置方法，编译后的文件
